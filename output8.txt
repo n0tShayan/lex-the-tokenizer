@@ -1,0 +1,65 @@
+PREPROC | #include <iostream> | 1
+KEYWORD | using | 2
+KEYWORD | namespace | 2
+KEYWORD | std | 2
+SEPARATOR | ; | 2
+KEYWORD | int | 4
+ID | main | 4
+SEPARATOR | ( | 4
+SEPARATOR | ) | 4
+SEPARATOR | { | 4
+KEYWORD | float | 5
+ID | pi | 5
+OPERATOR | = | 5
+FLOAT | 3.14 | 5
+SEPARATOR | ; | 5
+KEYWORD | char | 6
+ID | grade | 6
+OPERATOR | = | 6
+CHAR | 'A' | 6
+SEPARATOR | ; | 6
+KEYWORD | string | 7
+ID | msg | 7
+OPERATOR | = | 7
+STRING | "Hello, World!" | 7
+SEPARATOR | ; | 7
+KEYWORD | bool | 8
+ID | isPassing | 8
+OPERATOR | = | 8
+KEYWORD | true | 8
+SEPARATOR | ; | 8
+COMMENT | // Single-line comment | 10
+COMMENT | /*
+        Multi-line comment
+        continues here
+    */ | 11
+KEYWORD | if | 13
+SEPARATOR | ( | 13
+ID | pi | 13
+OPERATOR | > | 13
+FLOAT | 3.0 | 13
+OPERATOR | && | 13
+ID | isPassing | 13
+SEPARATOR | ) | 13
+SEPARATOR | { | 13
+ID | cout | 14
+OPERATOR | << | 14
+ID | msg | 14
+OPERATOR | << | 14
+ID | endl | 14
+SEPARATOR | ; | 14
+SEPARATOR | } | 15
+KEYWORD | else | 15
+SEPARATOR | { | 15
+ID | cout | 16
+OPERATOR | << | 16
+STRING | "Try again!" | 16
+OPERATOR | << | 16
+ID | endl | 16
+SEPARATOR | ; | 16
+SEPARATOR | } | 17
+KEYWORD | return | 19
+INT | 0 | 19
+SEPARATOR | ; | 19
+SEPARATOR | } | 20
+COMMENT | // \n   | 21

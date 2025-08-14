@@ -1,0 +1,47 @@
+Line 1: Token = #include <iostream> → Preprocessor Directive
+Line 2: Token = using → Keyword
+Line 2: Token = namespace → Keyword
+Line 2: Token = std → Identifier
+Line 2: Token = ; → Separator
+Line 6: Token = int → Keyword
+Line 6: Token = main → Identifier
+Line 6: Token = ( → Separator
+Line 6: Token = ) → Separator
+Line 6: Token = { → Separator
+Line 7: Token = int → Keyword
+Line 7: Token = i → Identifier
+Line 7: Token = = → Operator
+Line 7: Token = 0 → Integer Literal
+Line 7: Token = ; → Separator
+Line 9: Token = while → Keyword
+Line 9: Token = ( → Separator
+Line 9: Token = i → Identifier
+Line 9: Token = < → Operator
+Line 9: Token = 10 → Integer Literal
+Line 9: Token = ) → Separator
+Line 9: Token = { → Separator
+Line 10: Token = if → Keyword
+Line 10: Token = ( → Separator
+Line 10: Token = i → Identifier
+Line 10: Token = % → Operator
+Line 10: Token = 2 → Integer Literal
+Line 10: Token = == → Operator
+Line 10: Token = 0 → Integer Literal
+Line 10: Token = ) → Separator
+Line 10: Token = { → Separator
+Line 11: Token = i → Identifier
+Line 11: Token = ++ → Operator
+Line 11: Token = ; → Separator
+Line 12: Token = } → Separator
+Line 12: Token = else → Keyword
+Line 12: Token = { → Separator
+Line 13: Token = i → Identifier
+Line 13: Token = += → Operator
+Line 13: Token = 3 → Integer Literal
+Line 13: Token = ; → Separator
+Line 14: Token = } → Separator
+Line 15: Token = } → Separator
+Line 17: Token = return → Keyword
+Line 17: Token = 0 → Integer Literal
+Line 17: Token = ; → Separator
+Line 18: Token = } → Separator
